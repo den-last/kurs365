@@ -1,0 +1,54 @@
+.offer {
+    background-image: url(/img/offer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media screen and (max-width: 992px) {
+        background-position: right;
+    }
+
+    &-wrap {
+        gap: 20px;
+
+        p {
+            text-align: center;
+        }
+
+        .bttn {
+            padding: 5px 70px;
+            height: auto;
+            min-height: 60px;
+
+            @media screen and (max-width: 992px) {
+                padding: 5px 20px;
+            }
+        }
+
+        br {
+            @media screen and (max-width: 480px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.onmap {
+    h2 {
+        margin-top: 20px;
+    }
+    &-wrap {
+        width: 100%;
+        height: 480px;
+
+        @media screen and (max-width: 992px) {
+            height: 300px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}

@@ -1,53 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Kurs 365</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-  <body>
-    <div class="container-all">
-      <div class="window-overlay"></div>
-      <header class="header">
-        <div class="header__container _flex-btwn">
-          <a href="#" class="logo"
-            ><img src="img/Logo.png" alt="" class=""
-          /></a>
-          <menu class="menu-desk _flex-x _desk-f">
-            <div class="menu-elem _flex-x">
-              <img src="img/icons/Local.svg" alt="" class="icon" />
-              <span class="txt">пр. Дмитра Яворницького, 200, Дніпро</span>
-            </div>
-            <a href="#" class="menu-elem _flex-x">
-              <img src="img/icons/Phone.svg" alt="" class="icon" />
-              <span class="txt">+38 068 518 9500</span>
-            </a>
-            <a href="#" class="menu-elem _flex-x">
-              <img src="img/icons/telegram.svg" alt="" class="icon" />
-            </a>
-          </menu>
-          <div class="menu-toggle _mob mob-menu-start"></div>
-          <div class="_mob mob-menu-start">
-            <img src="img/icons/menu.svg" alt="" />
-            <img src="img/icons/close.svg" alt="" style="display: none" />
-          </div>
-        </div>
-      </header>
-      <div class="mobile-menu _mob-f _flex-col">
-        <menu class="menu-mob _flex-col">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <title>Kurs 365</title>
+</head>
+
+<body>
+  <div class="container-all">
+    <div class="window-overlay"></div>
+    <header class="header">
+      <div class="header__container _flex-btwn">
+        <a href="#" class="logo"><img src="img/Logo.png" alt="" class="" /></a>
+        <menu class="menu-desk _flex-x _desk-f">
           <div class="menu-elem _flex-x">
             <img src="img/icons/Local.svg" alt="" class="icon" />
             <span class="txt">пр. Дмитра Яворницького, 200, Дніпро</span>
@@ -60,211 +34,183 @@
             <img src="img/icons/telegram.svg" alt="" class="icon" />
           </a>
         </menu>
+        <div class="menu-toggle _mob mob-menu-start"></div>
+        <div class="_mob mob-menu-start">
+          <img src="img/icons/menu.svg" alt="" />
+          <img src="img/icons/close.svg" alt="" style="display: none" />
+        </div>
       </div>
-      <!--  style="display: none;"-->
-      <main>
-        <!-- <div class="header-space"></div> -->
+    </header>
+    <div class="mobile-menu _mob-f _flex-col">
+      <menu class="menu-mob _flex-col">
+        <div class="menu-elem _flex-x">
+          <img src="img/icons/Local.svg" alt="" class="icon" />
+          <span class="txt">пр. Дмитра Яворницького, 200, Дніпро</span>
+        </div>
+        <a href="#" class="menu-elem _flex-x">
+          <img src="img/icons/Phone.svg" alt="" class="icon" />
+          <span class="txt">+38 068 518 9500</span>
+        </a>
+        <a href="#" class="menu-elem _flex-x">
+          <img src="img/icons/telegram.svg" alt="" class="icon" />
+        </a>
+      </menu>
+    </div>
+    <!--  style="display: none;"-->
+    <main>
+      <!-- <div class="header-space"></div> -->
 
-        <section class="banner">
-          <div class="banner__container">
-            <div class="banner-wrap _flex-x">
-              
-              <div class="col-txt">
-                  <div class="col main _flex-col">
-                    <h1 class="_white">KURS/365<br><span>ОБМІН ВАЛЮТ</span></h1>
-                    <h3>Найкращий курс. працюємо щодня</h3>
+      <section class="banner pt60 pb60">
+        <div class="banner__container">
+          <div class="banner-wrap _flex-x">
+
+            <div class="col-txt">
+              <div class="col main _flex-col">
+                <h1 class="_white">KURS/365<br><span>ОБМІН ВАЛЮТ</span></h1>
+                <h3>Найкращий курс. працюємо щодня</h3>
+              </div>
+            </div>
+            <div class="col-tab">
+              <div class="table-wrap">
+                <div class="table-head _flex-btwn">
+                  <h4>Актуальний курс</h4>
+                  <div class="info">
+                    <p>від 1000 У.О</p>
+                    <p>на: 27.11.2025, 13:26</p>
                   </div>
-              </div>
-              <div class="col-tab">
-                <div class="table-wrap">
-                  <div class="table-head _flex-btwn">
-                    <h4>Актуальний курс</h4>
-                    <div class="info">
-                      <p>від 1000 У.О</p>
-                      <p>на: 27.11.2025, 13:26</p>
-                    </div>
-                  </div>
-                  <table class="currensy-table">
-                    <thead>
-                        <tr>
-                            <th>Валюта</th>
-                            <th>Купівля</th>
-                            <th>Продаж</th>
-                        </tr>
-                        <tr>
-                          <td>USD</td>
-                          <td>42.35</td>
-                          <td>44.35</td>
-                        </tr>
-                        <tr>
-                          <td>EUR</td>
-                          <td>46.20</td>
-                          <td>49.20</td>
-                        </tr>
-                        <tr>
-                          <td>PLN</td>
-                          <td>11.60</td>
-                          <td>13.60</td>
-                        </tr>
-                    </thead>
-                  </table>
                 </div>
-                <a href="#" class="bttn">Створити заявку</a>
+                <table class="currensy-table">
+                  <thead>
+                    <tr>
+                      <th>Валюта</th>
+                      <th>Купівля</th>
+                      <th>Продаж</th>
+                    </tr>
+                    <tr>
+                      <td>USD</td>
+                      <td>42.35</td>
+                      <td>44.35</td>
+                    </tr>
+                    <tr>
+                      <td>EUR</td>
+                      <td>46.20</td>
+                      <td>49.20</td>
+                    </tr>
+                    <tr>
+                      <td>PLN</td>
+                      <td>11.60</td>
+                      <td>13.60</td>
+                    </tr>
+                  </thead>
+                </table>
               </div>
+              <a href="#" class="bttn">Створити заявку</a>
             </div>
-          </div>
-        </section>
-
-        <section class="offer pt60 pb60">
-          <div class="offer__container">
-            <div class="offer-wrap _flex-col-cntr">
-              <h2 class="_h1 _d-blue">ЗАФІКСУЙ ВИГІДНИЙ КУРС ПРОСТО ЗАРАЗ</h2>
-              <a href="#" class="bttn">Спеціальна пропозиція на синій долар — всього 42.50</a>
-              <p>ОНОВЛЮЄМО ДАНІ В РЕАЛЬНОМУ ЧАСІ - ПЕРЕХОДЬ У НАШ TELEGRAM ТА ОТРИМУЙ ДОСТУП ДО НАЙКРАЩИХ КУРСІВ ПЕРШИМ</p>
-            </div>
-          </div>
-        </section>
-
-      </main>
-
-      <footer class="footer">
-        <div class="footer__container">
-          <div class="footer--main _flex">
-            <div class="footer-col">
-              <a class="footer-logo" href="">
-                <img src="img/logo.svg" alt="" />
-              </a>
-              <p class="_txt-semi _white foot-txt">
-                Ecografia este o tehnică imagistică non-invazivă, care
-                utilizează undele sonore.
-              </p>
-              <div class="soc-wrap _flex-x">
-                <img src="img/icons/fb.svg" alt="" />
-                <img src="img/icons/insta.svg" alt="" />
-              </div>
-            </div>
-            <div class="footer-col">
-              <div class="footer-elem">
-                <h5 class="_h5 open _white">Pentru clienți</h5>
-                <ul class="acc-body open ul-norm _flex-col">
-                  <li
-                    id="menu-item-14182"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14182"
-                  >
-                    <a href="https://balkan.ro/magazin">Analize</a>
-                  </li>
-                  <li
-                    id="menu-item-14220"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14220"
-                  >
-                    <a href="https://balkan.ro/promotii">Servicii</a>
-                  </li>
-                  <li
-                    id="menu-item-14186"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14186"
-                  >
-                    <a href="https://balkan.ro/blog">Medici</a>
-                  </li>
-                  <li
-                    id="menu-item-14187"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14187"
-                  >
-                    <a href="https://balkan.ro/livrare-si-retur">Promo​</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer-col">
-              <div class="footer-elem">
-                <h5 class="_h5 open _white">Informație legală</h5>
-                <ul
-                  id="foot_menu_column_3"
-                  class="acc-body open ul-norm _flex-col"
-                >
-                  <li
-                    id="menu-item-14188"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-14188"
-                  >
-                    <a
-                      rel="privacy-policy"
-                      href="https://balkan.ro/privacy-policy"
-                      >Politica de confidențialitate</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-14189"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14189"
-                  >
-                    <a href="https://balkan.ro/termeni-si-conditii"
-                      >Termeni și condiții</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-14190"
-                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14190"
-                  >
-                    <a href="#">Despre noi</a>
-                  </li>
-                  <li
-                    id="menu-item-14191"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14191"
-                  >
-                    <a href="https://balkan.ro/despre-cookies">Blog</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer-col">
-              <div class="footer-elem">
-                <h5 class="_h5 open _white">Contacte</h5>
-                <div class="acc-body open">
-                  <ul
-                    id="foot_menu_column_4"
-                    class="foot-menu-column-4 ul-norm _flex-col"
-                  >
-                    <li
-                      id="menu-item-14192"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14192"
-                    >
-                      <a href="https://balkan.ro/despre-noi">Despre noi</a>
-                    </li>
-                    <li
-                      id="menu-item-14192"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14192"
-                    >
-                      <a href="https://balkan.ro/despre-noi"
-                        >Locațiile noastre</a
-                      >
-                    </li>
-                    <li
-                      id="menu-item-14192"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14192"
-                    >
-                      or. Chișinău str. Nicolae Testemițanu 29/4
-                    </li>
-                    <li
-                      id="menu-item-14192"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14192"
-                    >
-                      <a href="https://balkan.ro/despre-noi"
-                        >+373 (22) 89-09-30</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="footer--copyright _flex-cntr">
-            <span class="copyright-txt _txt _white">© 2025 Balkan Medica</span>
           </div>
         </div>
-      </footer>
-    </div>
-    <script src="/src/scrollCue.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+      <section class="offer pt60 pb60">
+        <div class="offer__container">
+          <div class="offer-wrap _flex-col-cntr">
+            <h2>ЗАФІКСУЙ ВИГІДНИЙ КУРС<br> ПРОСТО ЗАРАЗ</h2>
+            <a href="#" class="bttn">Спеціальна пропозиція на синій долар — всього 42.50</a>
+            <p>ОНОВЛЮЄМО ДАНІ В РЕАЛЬНОМУ ЧАСІ - ПЕРЕХОДЬ У НАШ TELEGRAM<br> ТА ОТРИМУЙ ДОСТУП ДО НАЙКРАЩИХ КУРСІВ
+              ПЕРШИМ</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="onmap ">
+        <div class="onmap__container pt60 pb60">
+          <h2 class="_h1 _d-blue">МИ НА МАПІ</h2>
+        </div>
+        <div class="onmap-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3268.389612526864!2d35.01398705251161!3d48.47534529184666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0LTQvdC10L_RgCDQttC0INCy0L7QutC30LDQuw!5e1!3m2!1sru!2sua!4v1764672392027!5m2!1sru!2sua"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+
+      <section class="advantages pt60 pb60">
+        <div class="advantages__container">
+          <h2>ЧОМУ МИ</h2>
+          <div class="advantages-wrap _flex-btwn">
+
+            <div class="advantages-card _flex-col-cntr">
+              <div class="icon-wrap _flex-cntr">
+                <img src="img/icons/time.png" alt="" class="icon" />
+              </div>
+              <span class="title">ЩОДНЯ, БЕЗ ПЕРЕРВ ТА ВИХІДНИХ</span>
+            </div>
+
+            <div class="advantages-card _flex-col-cntr">
+              <div class="icon-wrap _flex-cntr">
+                <span class="icon-txt">60 <span class="sm">хвилин</span></span>
+              </div>
+              <span class="title">ФІКСУЄМО КУРС НА 60 ХВИЛИН</span>
+            </div>
+
+            <div class="advantages-card _flex-col-cntr">
+              <div class="icon-wrap _flex-cntr">
+                <img src="img/icons/evro.png" alt="" class="icon" />
+
+              </div>
+              <span class="title">ПРИЙМАЄМО БУДЬ-ЯКІ КУПЮРИ ТА ПЕРЕВІРЯЄМО ЇХ</span>
+            </div>
+
+            <div class="advantages-card _flex-col-cntr">
+              <div class="icon-wrap _flex-cntr">
+                <span class="icon-txt-2">SWIFT<br>INVOICE</span>
+              </div>
+              <span class="title">SWIFT/INVOICE З МІНІМАЛЬНОЮ КОМІСІЄЮ</span>
+            </div>
+
+            <div class="advantages-card _flex-col-cntr">
+              <div class="icon-wrap _flex-cntr">
+                <img src="img/icons/loc.png" alt="" class="icon" />
+              </div>
+              <span class="title">ПОРУЧ ВОКЗАЛ І Є ПАРКУВАННЯ</span>
+            </div>
+
+          </div>
+          <div class="txt-wrap">
+            Обмінювати валюту у Kurs365 ще ніколи не було так зручно та надійно. У нас ви отримуєте вигідні умови та
+            окремі привілеї для постійних клієнтів. Забронюйте потрібний курс і суму онлайн, а потім заберіть готівку у
+            будь-якому нашому пункті в той час, коли вам зручно. Швидко, безпечно та без зайвих клопотів.
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer-wrap _flex-col-cntr">
+          <a href="#" class="logo"><img src="img/logo.png" alt="" class="" /></a>
+          <div class="foot-elem _flex-x">
+            <img src="img/icons/Local.svg" alt="" class="icon" />
+            <span class="txt">пр. Дмитра Яворницького, 200, Дніпро</span>
+          </div>
+          <div class="foot-elem phones-menu _flex-x">
+            <a href="#" class="txt">+38 (068) 518 9500</a>
+            <a href="#" class="txt">+38 (095) 505 4001</a>
+            <a href="#" class="txt">+38 (098) 038 4001</a>
+          </div>
+          <a href="#" class="foot-elem _flex-x">
+            <img src="img/icons/telegram.svg" alt="" class="icon" />
+          </a>
+          <span class="copyright-txt">© 2025 Kurs365. Усі права захищені</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="/src/scrollCue.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
