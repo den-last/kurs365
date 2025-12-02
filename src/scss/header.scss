@@ -1,0 +1,46 @@
+.header {
+  padding: 20px 0;
+  @media screen and (max-width: 992px) {
+    padding: 10px 0;
+  }
+  .logo {
+    height: 68px;
+    @media screen and (max-width: 992px) {
+        height: 40px;
+      }
+    img {
+      height: 100%;
+    }
+  }
+  &__container {
+    gap: 20px;
+  }
+  .menu-desk {
+    gap: 36px;
+  }
+  .menu-elem {
+    gap: 8px;
+  }
+  a.menu-elem {
+    .txt {
+      transition: 0.3s;
+    }
+    &:hover {
+      .txt {
+        transition: 0.3s;
+        color: #009b25;
+      }
+    }
+  }
+  .mob-menu-start {
+    position: relative;
+    z-index: 200;
+  }
+}
+.menu-mob {
+    gap: 16px;
+    padding-top: 30px;
+    .menu-elem {
+        gap: 8px;
+    }
+}

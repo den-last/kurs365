@@ -4,20 +4,13 @@ $accent: #0099cd;
 
 $gray: #f1f1f1;
 
-$lightblue20: #f4fbff;
-$lightblue40: #ccedff;
-$lightblue50: #E0F4FF;
-// $blue: #00529A;
-$mediumblue: #00529a;
-$darkblue: #0a1948;
-
-// $second: #32CC99;
+$blue: #045fd4;
 $red: #ea0029;
 // $gradient: linear-gradient(90deg, #71D5AA 0%, #0099CD 100%);
 
 * {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -28,8 +21,9 @@ body {
   position: relative;
   overflow-x: hidden;
   color: $black;
+  font-weight: 600;
   font-size: 18px;
-  line-height: 1.65;
+  line-height: 1.33;
   //   background-color: $white;
   word-wrap: break-word;
 
@@ -49,7 +43,10 @@ body {
 main {
   position: relative;
 }
-
+menu {
+  margin: 0;
+  padding: 0;
+}
 ._h1,
 h1,
 ._h2,
@@ -66,27 +63,28 @@ h6 {
   margin: 0;
 }
 
-h1,
-._h1 {
-  font-weight: 800;
-  font-size: 45px;
-  line-height: 55px;
+// h1,
+// ._h1 {
+//   font-weight: 800;
+//   font-size: 45px;
+//   line-height: 55px;
 
-  @media screen and (max-width: 992px) {
-    font-size: 20px;
-    line-height: 26px;
-  }
-}
+//   @media screen and (max-width: 992px) {
+//     font-size: 20px;
+//     line-height: 26px;
+//   }
+// }
 
 h2,
 ._h2 {
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 40px;
+font-weight: 800;
+font-size: 40px;
+line-height: 1.1;
+text-align: center;
+
 
   @media screen and (max-width: 992px) {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 24px;
   }
 }
 
@@ -138,8 +136,6 @@ h6,
   }
 }
 
-
-
 [class*="__container"] {
   width: 100%;
   padding: 0 15px;
@@ -163,7 +159,6 @@ a {
 //   transition: all 0.3s;
 // }
 
-
 .bttn {
   display: flex;
   align-items: center;
@@ -172,13 +167,33 @@ a {
   cursor: pointer;
   position: relative;
   transition: all ease 0.3s;
-  //   border-radius: 15px;
+  border-radius: 130px;
   //   width: max-content;
-  //   padding: 15px 30px;
-  //   height: 48px;
-  //   font-weight: 700;
-  //   font-size: 18px;
+  padding: 5px 40px;
+  height: 60px;
   line-height: 100%;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 45px;
+  color: #fff;
+  background-color: $blue;
+  transition: 0.3s;
+  @media screen and (max-width: 767px) {
+    height: 50px;
+    font-size: 18px;
+    padding: 3px 20px;
+  }
+  &:hover {
+    background-color: #e9d514;
+    transition: 0.3s;
+    color: $black;
+  }
+}
+.pt60 {
+  padding-top: 60px;
+}
+.pb60 {
+  padding-bottom: 60px;
 }
 ._hide {
   display: none !important;
@@ -316,7 +331,6 @@ a {
 img {
   vertical-align: top;
 }
-
 
 .window-overlay {
   position: fixed;
