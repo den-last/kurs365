@@ -2,7 +2,6 @@ import './style.css';
 import './style.scss';
 
 // console.log(newsSwiperClass);
-scrollCue.init();
 $(document).ready(function () {
   // scrollCue.init();
   scrollCue.update();
